@@ -35,7 +35,7 @@
 
 // 4. Use a while loop to print numbers from 5 to 1 in the console.
 
-let number = 5;
+// let number = 5;
 
 // while (number > 0){
 //     console.log(number)
@@ -84,13 +84,47 @@ let number = 5;
 // a paragraph with ID sum.
 
 
+// let numbers = [5, 10, 15];
+
+// let sum = 0;
+
+// let totalSum = document.querySelector("#numbers")
+
+// for (i = 0; i< numbers.length; i++){
+//     totalSum.innerHTML = sum += numbers[i];
+    
+    
+        
+// }
 
 
 
 
 // 8. Loop through an array of cities ["Karachi", "Lahore", "Quetta"] and display them as a
 // single string in a div with ID cities.
+
+// let cities = ["Karachi", "Lahore", "Quetta"];
+
+// let div = document.querySelector("#cities");
+
+// for (let i = 0; i < cities.length; i++){
+//     div.innerHTML = cities.join(" ");
+// }
+
+
+
+
+
+
+
 // 9. Write a loop that counts from 1 to 20 and logs only the even numbers in the console.
+
+
+
+
+
+
+
 // 10. Create an array of numbers [45, 22, 89, 100], and use a loop to find and display the
 // largest number in a paragraph with ID max.
 // 11. Use document.querySelector to select a div with ID result and change its text to "Task
