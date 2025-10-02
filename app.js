@@ -431,11 +431,29 @@
 
 // remove 10 % from items and print - 10 % values
 
-let items = [800, 600, 343, 399, 500, 300];
+// let items = [800, 600, 343, 399, 500, 300];
 
-for (let i = 0; i<items.length; i ++){
-    let offer = items[i] / 10;
-    items[i] -= offer
+// for (let i = 0; i<items.length; i ++){
+//     let offer = items[i] / 10;
+//     items[i] -= offer
 
-}
-console.log(items);
+// }
+// console.log(items);
+
+
+// shift removes from start
+let fruits = ["apple", "banana", "pomegurnate", "mango", "graps"]
+
+fruits.shift();
+
+
+
+// splice   removes and adds or replace
+
+
+fruits.splice(2, 1, "guava")
+    fruits.push("watermelon")
+
+// unshift   adds in the start
+
+fruits.unshift("dragon fruit");
