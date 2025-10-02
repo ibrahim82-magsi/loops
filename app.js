@@ -35,7 +35,7 @@
 
 // 4. Use a while loop to print numbers from 5 to 1 in the console.
 
-let number = 5;
+// let number = 5;
 
 // while (number > 0){
 //     console.log(number)
@@ -142,3 +142,36 @@ let number = 5;
 // 38. Create a loop that counts how many numbers in [5, 10, 15, 20, 25] are greater than or
 // equal to the average of the array.
 // 39. Given an array [2, 2, 2, 2, 2], use a loop to check whether all elements are equal.
+
+
+
+
+//find average of class numbers
+
+
+// let array = [45, 34, 23, 25, 34, 12, 98, 45];
+
+// let sum = 0;
+
+// for (let totalsum of array){
+
+//     sum += totalsum
+    
+    
+
+// }
+
+// let average = sum / array.length
+// console.log(`the class average sum is ${average}`);
+
+
+// remove 10 % from items and print - 10 % values
+
+let items = [800, 600, 343, 399, 500, 300];
+
+for (let i = 0; i<items.length; i ++){
+    let offer = items[i] / 10;
+    items[i] -= offer
+
+}
+console.log(items);
